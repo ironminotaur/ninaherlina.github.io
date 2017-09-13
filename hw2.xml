@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type = "text/css" href = "hw2.css" ?>
+<?xml-stylesheet type="text/css" href="hw2.css"?>
 <!-- Nina Rickert, September 12th 2017 -->
 <ccsf>
-
-<cnit131 id="cnit32111">Internet &amp; Intro to HTML</cnit131>
-	<instructor>Claudia Da Silva</instructor>
-<cnit131a id="cnit32123">XML &amp; JSON</cnit131a>
-	<instructor>Claudia Da Silva</instructor>
-<cnit132 id="cnit32145">Intermediate HTML &amp; CSS</cnit132>
-	<instructor>Claudia Da Silva</instructor>
-<cnit133 id="cnit32167">Javascript</cnit133>
-	<instructor>Claudia Da Silva</instructor>
-
+	<cnit131 id="cnit32111">Internet &amp; Intro to HTML</cnit131>
+		<instructor>Claudia Da Silva</instructor>
+	<cnit131a id="cnit32123">XML &amp; JSON</cnit131a>
+		<instructor>Claudia Da Silva</instructor>
+	<cnit132 id="cnit32145">Intermediate HTML &amp; CSS</cnit132>
+		<instructor>Claudia Da Silva</instructor>
+	<cnit133 id="cnit32167">Javascript</cnit133>
+		<instructor>Claudia Da Silva</instructor>
 </ccsf>
