@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE note SYSTEM "hw3.dtd">
+<!DOCTYPE note SYSTEM
+"https://www.ninaherlina.github.io/hw3.dtd">
 <note>
   <to>Claudia</to>
   <from>Janet</from>
