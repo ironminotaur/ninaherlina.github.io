@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.ninaherlina.github.io/hw3.xsd"
-targetNamespace="https://www.ninaherlina.github.io/hw3xsd.xml"
-xmlns="https://www.ninaherlina.github.io/hw3xsd.xml"
+targetNamespace="https://ninaherlina.github.io/hw3xsd.xml"
+xmlns="https://ninaherlina.github.io/hw3xsd.xml"
 elementFormDefault="qualified">
 
 <xs:element name="note">
