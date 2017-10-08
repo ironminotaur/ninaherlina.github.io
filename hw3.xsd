@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsd:schema xmlns:xsd="https://ninaherlina.github.io/hw3.xsd"
-elementFormDefault="qualified">
+<xsd:schema xmlns:xsd="https://ninaherlina.github.io/hw3xsd.xml">
 
-<xs:element name="note">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="to" type="xs:string"/>
-      <xs:element name="from" type="xs:string"/>
-      <xs:element name="heading" type="xs:string"/>
-      <xs:element name="body" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
+<xsd:element name="note" type="docType"/>
+<xsd:element name="to" type="xsd:string"/>
+<xsd:element name="from" type="xsd:string"/>
+<xsd:element name="heading" type="xsd:string"/>
+<xsd:element name="body" type="xsd:string"/>
 
-</xs:schema>
+  <xsd:complexType name="docType">
+    <xsd:sequence>
+      <xsd:element ref="to"/>
+      <xsd:element ref="from"/>
+      <xsd:element ref="heading"/>
+      <xsd:element ref="body"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+
+</xsd:schema>
