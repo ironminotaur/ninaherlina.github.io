@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="https://ninaherlina.github.io/hw3.xsd"
+<xsd:schema xmlns:xsd="https://ninaherlina.github.io/hw3.xsd"
 targetNamespace="https://ninaherlina.github.io/hw3xsd.xml"
 xmlns="https://ninaherlina.github.io/hw3xsd.xml"
 elementFormDefault="qualified">
