@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/css" href = "https://ninaherlina.github.io/hw4.css" ?>
+<w:states>
+   <w:name>California</w:name>
+   <w:name>Oregon</w:name>
+   <w:name>Washington</w:name>
+   <w:name>Utah</w:name>
+</w:states>
