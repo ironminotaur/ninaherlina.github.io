@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type = "text/css" href = "https://ninaherlina.github.io/hw4.css" ?>
 
-</states>
-
 <states xmlns:e="https://ninaherlina.github.io/east.xml" xmlns:w="https://ninaherlina.github.io/west.xml" >
   <e:states>
     <e:name>Delaware</e:name>
