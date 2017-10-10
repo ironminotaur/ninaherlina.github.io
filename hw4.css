@@ -4,6 +4,6 @@
 states { width: 300px; border: 2px solid red; margin: 0 auto; }
 name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
 
-e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; position: relative; z-index: 1; }
-w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; position: relative; z-index: 1; }
+e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
+w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
 
