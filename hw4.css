@@ -5,9 +5,9 @@ e|name { display: block; width: 100%; background-color: skyblue; color: red; fon
 w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
 
 states {
-    width: 300px;
+    
     border: 2px solid black;
-    margin: 0 auto; }
+     }
 
 
 
