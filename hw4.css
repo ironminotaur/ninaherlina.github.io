@@ -4,8 +4,8 @@
 states { width: 300px; border: 2px solid red; margin: 0 auto; }
 name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
 
-e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; order: disc;}
-w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; order: disc;}
+e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
+w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
 
 
 
