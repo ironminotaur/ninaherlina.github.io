@@ -1,12 +1,11 @@
 @namespace e "https://ninaherlina.github.io/east.xml";
 @namespace w "https://ninaherlina.github.io/west.xml";
 
-states { width: 300px; border: 2px solid red; margin: 0 auto; }
+states { width: 300px; border: 2px solid red; margin: 0 auto; list-style-type: disc; }
 name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
 
 e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; list-style-type: disc; }
 w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; list-style-type: disc; }
 
-e|states { list-style-type: disc; }
-w|states { list-style-type: disc; }
+
 
