@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type = "text/css" href = "https://ninaherlina.github.io/hw4.css" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <states>
           
- <e:states xmlns:e="https://ninaherlina.github.io/east.xml" select="expression" 
-          lang="language-code" data-type="text|number|qname" order="ascending|descending" case-order="upper-first|lower-first">
+ <e:states xmlns:e="https://ninaherlina.github.io/east.xml">
    <e:name>New York</e:name>
    <e:name>North Carolina</e:name>
    <e:name>Florida</e:name>
    <e:name>Delaware</e:name>
 </e:states>
 
-<w:states xmlns:w="https://ninaherlina.github.io/west.xml" select="expression" 
-          lang="language-code" data-type="text|number|qname" order="ascending|descending" case-order="upper-first|lower-first">
+<w:states xmlns:w="https://ninaherlina.github.io/west.xml">
    <w:name>California</w:name>
    <w:name>Oregon</w:name>
    <w:name>Washington</w:name>
