@@ -1,25 +1,22 @@
-<?xml version="1.0" encoding="utf-8" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"?>
-<?xml-stylesheet type = "text/css" href = "https://ninaherlina.github.io/hw4.css" ?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/css" href = "https://ninaherlina.github.io/hw4.css"?>
 
 <states>
 
-<xsl:template match="/">          
 <e:states xmlns:e="https://ninaherlina.github.io/east.xml">
    <e:name>New York</e:name>
    <e:name>North Carolina</e:name>
    <e:name>Florida</e:name>
    <e:name>Delaware</e:name>
 </e:states>
-</xsl:template>
 
-<xsl:template match="/"> 
 <w:states xmlns:w="https://ninaherlina.github.io/west.xml">
    <w:name>California</w:name>
    <w:name>Oregon</w:name>
    <w:name>Washington</w:name>
    <w:name>Utah</w:name>
 </w:states>
-</xsl:template>
+
 
 </states>
 
