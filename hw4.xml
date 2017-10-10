@@ -3,19 +3,19 @@
 
 </states>
 
-<states xmlns:nse="https://ninaherlina.github.io/east.xml" xmlns:nsw="https://ninaherlina.github.io/west.xml">
-  <nse:states>
-    <nse:name>Delaware</nse:name>
-    <nse:name>Florida</nse:name>
-    <nse:name>New York</nse:name>
-    <nse:name>North Carolina</nse:name>
-  </nse:states>
-  <nsw:states>
-    <nsw:name>California</nsw:name>
-    <nsw:name>Oregon</nsw:name>
-    <nsw:name>Utah</nsw:name>
-    <nsw:name>Washington</nsw:name>
-  </nsw:states>
+<states xmlns:e="https://ninaherlina.github.io/east.xml" xmlns:w="https://ninaherlina.github.io/west.xml">
+  <e:states>
+    <e:name>Delaware</e:name>
+    <e:name>Florida</e:name>
+    <e:name>New York</e:name>
+    <e:name>North Carolina</e:name>
+  </e:states>
+  <w:states>
+    <w:name>California</w:name>
+    <w:name>Oregon</w:name>
+    <w:name>Utah</w:name>
+    <w:name>Washington</w:name>
+  </w:states>
 </states>
 
 
