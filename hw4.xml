@@ -3,14 +3,14 @@
 
 <states>
 
- <e:states lang="en" xmlns:e="https://ninaherlina.github.io/east.xml">
+ <e:states lang="en" xmlns:e="https://ninaherlina.github.io/east.xml" data-type="text" order="ascending">
    <e:name>New York</e:name>
    <e:name>North Carolina</e:name>
    <e:name>Florida</e:name>
    <e:name>Delaware</e:name>
 </e:states>
 
-<w:states lang="en" xmlns:w="https://ninaherlina.github.io/west.xml">
+<w:states lang="en" xmlns:w="https://ninaherlina.github.io/west.xml" data-type="text" order="ascending">
    <w:name>California</w:name>
    <w:name>Oregon</w:name>
    <w:name>Washington</w:name>
