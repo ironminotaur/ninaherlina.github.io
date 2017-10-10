@@ -10,7 +10,7 @@
    <e:name>Delaware</e:name>
 </e:states>
 
-<w:states xmlns:w="https://ninaherlina.github.io/west.xml">
+<w:states lang="en" xmlns:w="https://ninaherlina.github.io/west.xml">
    <w:name>California</w:name>
    <w:name>Oregon</w:name>
    <w:name>Washington</w:name>
