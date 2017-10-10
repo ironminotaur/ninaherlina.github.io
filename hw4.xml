@@ -3,7 +3,7 @@
 
 </states>
 
-<states xmlns:e="https://ninaherlina.github.io/east.xml" xmlns:w="https://ninaherlina.github.io/west.xml">
+<states xmlns:e="https://ninaherlina.github.io/east.xml" xmlns:w="https://ninaherlina.github.io/west.xml" >
   <e:states>
     <e:name>Delaware</e:name>
     <e:name>Florida</e:name>
