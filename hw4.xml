@@ -3,7 +3,7 @@
 
 <states>
 
- <e:states xmlns:e="https://ninaherlina.github.io/east.xml">
+ <e:states xmlns:e="https://ninaherlina.github.io/east.xml" Echo="1" Bravo="1" Tango="1" Alpha="1">
    <e:name>New York</e:name>
    <e:name>North Carolina</e:name>
    <e:name>Florida</e:name>
