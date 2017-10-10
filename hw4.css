@@ -4,6 +4,3 @@
 e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
 w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
 
-e|states w|states {
-       border: 2px solid grey;
-}
