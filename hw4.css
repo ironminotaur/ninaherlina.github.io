@@ -4,14 +4,7 @@
 states { width: 300px; border: 2px solid red; margin: 0 auto; }
 name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
 
-e|states {
-	display: block;
-	background: skyblue;
-	color: red;
-}
-
-w|states {
-	display: block;
-	background: yellow;
-	color: blue;
-}
+e|states { width: 300px; border: 2px solid red; margin: 0 auto; }
+w|states { width: 300px; border: 2px solid red; margin: 0 auto; }
+e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
+w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
