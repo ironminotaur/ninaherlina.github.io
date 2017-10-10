@@ -7,3 +7,6 @@ name { display: block; width: 100%; background-color: skyblue; color: red; font-
 e|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; list-style-type: disc; }
 w|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; list-style-type: disc; }
 
+e|states { list-style-type: disc; }
+w|states { list-style-type: disc; }
+
