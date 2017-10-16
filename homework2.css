@@ -77,11 +77,11 @@ table tr td {
 	padding: 0.625rem;
 	border-spacing: 0.3125rem;
 	-webkit-animation-name: tab;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 9s;
     -webkit-animation-timing-function:linear;
     -webkit-animation-iteration-count: infinite;
     animation-name: tab;
-    animation-duration: 6s;
+    animation-duration: 9s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
