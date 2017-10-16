@@ -78,11 +78,11 @@ table tr td {
 	border-spacing: 0.3125rem;
 	-webkit-animation-name: tab;
     -webkit-animation-duration: 6s;
-    -webkit-animation-timing-function:ease-out;
+    -webkit-animation-timing-function:linear;
     -webkit-animation-iteration-count: infinite;
     animation-name: tab;
     animation-duration: 6s;
-    animation-timing-function:ease-out;
+    animation-timing-function:linear;
     animation-iteration-count: infinite;
 }
 @-webkit-keyframes tab {
