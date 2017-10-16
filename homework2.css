@@ -11,20 +11,11 @@ header p {
     height: 3rem;
     background-color: white;
     position: relative;
-    -webkit-animation-name: banner;
-    -webkit-animation-duration: 9s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function:ease-out;
     animation-name: banner;
     animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function:ease-out;
-}
-@-webkit-keyframes banner {
-    from   {left:10%;}
-    to     {left:80%;}
 }
 @keyframes banner {
     from   {left:10%;}
@@ -76,18 +67,10 @@ table tr td {
 	background-color: #FFFF00;
 	padding: 0.625rem;
 	border-spacing: 0.3125rem;
-	-webkit-animation-name: tab;
-    -webkit-animation-duration: 9s;
-    -webkit-animation-timing-function:linear;
-    -webkit-animation-iteration-count: infinite;
     animation-name: tab;
     animation-duration: 9s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
-}
-@-webkit-keyframes tab {
-    from {background-color: yellow; color: black;}
-    to {background-color: green; color: white;}
 }
 @keyframes tab {
     from {background-color: yellow; color: black;}
