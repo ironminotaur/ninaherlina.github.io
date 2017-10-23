@@ -2,7 +2,7 @@
 
 <xsd:schema 
 xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
-targetNamespace = "https://ninaherlina.github.io/hw5.xml"
+targetNamespace = "http://www.ineasysteps.com/xsd"
 xmlns:tns = "https://ninaherlina.github.io/hw5.xml" >
 
 <!-- DECLARE ELEMENTS. -->
