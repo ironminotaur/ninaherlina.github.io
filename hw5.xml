@@ -5,7 +5,7 @@
 <stock:doc 
 xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation = "https://ninaherlina.github.io/hw5.xsd"
-xmlns:stock = "http://www.ineasysteps.com/xsd" >
+xmlns:stock = "https://ninaherlina.github.io/hw5.xsd" >
 
 	<stock:item id = "Microsoft">
 		<stock:symbol>MSN</stock:symbol>
