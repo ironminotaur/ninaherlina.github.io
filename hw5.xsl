@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns:s="https://ninaherlina.github.io/hw5.xsd">
+xmlns:stock="https://ninaherlina.github.io/hw5.xsd">
 <xsl:output method="html" encoding="UTF-8"/>
-<xsl:template match="s/doc">
+<xsl:template match="stock/doc">
   <html>
     <head>
       <title>HW5 XSL Output</title>
@@ -16,11 +16,11 @@ xmlns:s="https://ninaherlina.github.io/hw5.xsd">
         <th>price</th>
         <th>ceo</th>
       </tr>
-      <xsl:for-each select="s:item">
+      <xsl:for-each select="stock:item">
         <tr style="color:white; background:cyan; text-align:center">
-          <td><xsl:value-of select="s:symbol"/></td>
-          <td><xsl:value-of select="s:price"/></td>
-          <td><xsl:value-of select="s:ceo"/></td>
+          <td><xsl:value-of select="stock:symbol"/></td>
+          <td><xsl:value-of select="stock:price"/></td>
+          <td><xsl:value-of select="stock:ceo"/></td>
         </tr>
       </xsl:for-each>
     </table>
