@@ -3,8 +3,6 @@
                 xmlns:s="https://ninaherlina.github.io/hw5.xsd" >
   <xsl:output method = "html" encoding = "UTF-8"/>
 <xsl:template match="s:doc">
-  <style type="text/css">
-   </style>
   <html>
     <head>
       <title>HW5 XSL Output</title>
