@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns:stock="https://ninaherlina.github.io/hw5.xml">
+xmlns:s="https://ninaherlina.github.io/hw5.xsd">
 <xsl:output method="html" encoding="UTF-8"/>
-<xsl:template match="stock:doc">
+<xsl:template match="s:doc">
   <html>
     <head>
       <title>HW5 XSL Output</title>
@@ -15,20 +15,20 @@ xmlns:stock="https://ninaherlina.github.io/hw5.xml">
         <th>Price</th>
         <th>Ceo</th>
       </tr>
-      <xsl:for-each select="stock:item">
+      <xsl:for-each select="s:item">
         <xsl:choose>
-            <xsl:if test="stock:price &gt;70.00">
+            <xsl:if test="s:price &gt;70.00">
               <tr style="color:white; background:cyan; text-align:center">
-                <td> <xsl:value-of="stock:symbol"/> </td>
-                <td> <xsl:value-of="stock:price"/> </td>
-                <td> <xsl:value-of="stock:ceo"/> </td>
+                <td> <xsl:value-of="s:symbol"/> </td>
+                <td> <xsl:value-of="s:price"/> </td>
+                <td> <xsl:value-of="s:ceo"/> </td>
               </tr>
               </xsl:if>
           <xsl:otherwise>
             <tr style="color:white; background:#D3D3D3; text-align:center">
-                <td> <xsl:value-of="stock:symbol"/> </td>
-                <td> <xsl:value-of="stock:price"/> </td>
-                <td> <xsl:value-of="stock:ceo"/> </td>
+                <td> <xsl:value-of="s:symbol"/> </td>
+                <td> <xsl:value-of="s:price"/> </td>
+                <td> <xsl:value-of="s:ceo"/> </td>
               </tr>
           </xsl:otherwise>
           </xsl:choose>
