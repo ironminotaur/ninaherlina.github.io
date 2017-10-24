@@ -23,22 +23,7 @@
               </tr>
               </xsl:if>
        
-       <xsl:choose>
-            <xsl:when s:price&lt;80.00">
-              <tr style="color:white; background:#D3D3D3; text-align:center">
-                <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price"/> </td>
-                <td> <xsl:value-of select="s:ceo"/> </td>
-              </tr>
-              </xsl:when>
-          <xsl:otherwise>
-            <tr style="color:white; background:cyan; text-align:center">
-                <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price"/> </td>
-                <td> <xsl:value-of select="s:ceo"/> </td>
-              </tr>
-          </xsl:otherwise>
-          </xsl:choose>
+       
           </xsl:for-each>
     </table>
   </body>
