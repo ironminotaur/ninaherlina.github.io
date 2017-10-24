@@ -7,8 +7,6 @@
     <head>
       <title>HW5 XSL Output</title>
     </head>
-    <style> tr:nth-child(even) {
-    background-color: #D3D3D3;} </style>
   <body>
     <table style="width:450px">
       <tr style="color:white; background:black">
@@ -18,7 +16,7 @@
       </tr>
       <xsl:for-each select="s:item">
        <xsl:if test="s:price&gt;70.00">
-              <tr style="color:white; background:cyan; text-align:center">
+              <tr style="color:white; background:cyan; text-align:center; tr:nth-child(even)background-color: #D3D3D3;">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
