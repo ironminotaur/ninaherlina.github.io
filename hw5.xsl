@@ -4,8 +4,6 @@
   <xsl:output method = "html" encoding = "UTF-8"/>
 <xsl:template match="s:doc">
   <style type="text/css">
-     .row0 { background-color: cyan; }
-     .row1 { background-color: #D3D3D3; }
    </style>
   <html>
     <head>
@@ -20,7 +18,7 @@
       </tr>
       <xsl:for-each select="s:item">
        <xsl:if test="s:price&gt;70.00">
-              <tr style="color:white; background:cyan; text-align:center">
+              <tr style="color:white; background:cyan/#D3D3D3; text-align:center">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
