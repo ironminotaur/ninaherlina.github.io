@@ -17,13 +17,13 @@ xmlns:s="https://ninaherlina.github.io/hw5.xsd">
       </tr>
       <xsl:for-each select="s:item">
         <xsl:choose>
-            <xsl:if test="s:price &gt;70.00">
+            <xsl:when test="s:price &gt;70.00">
               <tr style="color:white; background:cyan; text-align:center">
                 <td> <xsl:value-of="s:symbol"/> </td>
                 <td> <xsl:value-of="s:price"/> </td>
                 <td> <xsl:value-of="s:ceo"/> </td>
               </tr>
-              </xsl:if>
+              </xsl:when>
           <xsl:otherwise>
             <tr style="color:white; background:#D3D3D3; text-align:center">
                 <td> <xsl:value-of="s:symbol"/> </td>
