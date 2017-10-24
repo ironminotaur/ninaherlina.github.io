@@ -22,9 +22,7 @@
                 <td> <xsl:value-of select="s:ceo"/> </td>
               </tr>
               </xsl:if>
-       
-       
-          </xsl:for-each>
+       </xsl:for-each>
     </table>
   </body>
   </html>
