@@ -14,7 +14,7 @@
         <th>Price</th>
         <th>Ceo</th>
       </tr>
-      <xsl:for-each select="s:doc/s:item">
+      <xsl:for-each select="s:doc">
         <xsl:choose>
             <xsl:when test="s:price &gt;70.00">
               <tr style="color:white; background:cyan; text-align:center">
