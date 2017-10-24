@@ -25,7 +25,7 @@
         </xsl:for-each>
         <xsl:for-each select="s:item">
         <xsl:choose>
-            <xsl:when test="position() mod 2 = 1">
+            <xsl:when test="s:position() mod 2 = 1">
               <tr style="color:white; background:cyan; text-align:center">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
