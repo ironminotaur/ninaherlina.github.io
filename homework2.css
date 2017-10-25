@@ -9,7 +9,6 @@ header p {
     width: 10rem;
     height: 3rem;
     background-color: white;
-    position: relative;
     animation-name: banner;
     animation-duration: 9s;
     animation-iteration-count: infinite;
