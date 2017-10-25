@@ -2,14 +2,15 @@ body {
 	background-color: yellow;
 }
 header p {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	text-align: center;
 	position: absolute;
 	border-style: outset;
-	color: red;
-    background-color: white;
-	position: relative;
-    width: 10rem;
+	width: 10rem;
     height: 3rem;
+    background-color: white;
+    position: relative;
     animation-name: banner;
     animation-duration: 9s;
     animation-iteration-count: infinite;
