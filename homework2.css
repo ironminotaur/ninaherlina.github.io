@@ -19,7 +19,7 @@ padding-top: 1.5rem;
 }
 @keyframes banner {
     from   {left:10%;}
-    to     {left:80%;}
+    to     {left:calc(100% - 9rem);}
 }
 a:link {color:red; } a:visited {color:blue;}
 section h1 {
