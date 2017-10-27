@@ -21,10 +21,10 @@ padding-top: 1.5rem;
     from   {left:10%;}
     to     {left:80%;}
 }
-a:link {
+article #end a:link {
 	color: red;
 }
-a:visited {
+article #end a:visited {
 	color: blue;
 }
 section h1 {
