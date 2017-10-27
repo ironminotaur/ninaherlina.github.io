@@ -7,9 +7,6 @@
     <head>
       <title>HW5 XSL Output</title>
        <style>
-        tr:nth-child(odd) {
-          background: cyan;
-        }
         tr:nth-child(even) {
           background: #D3D3D3;
         }
