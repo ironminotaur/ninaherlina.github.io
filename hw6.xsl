@@ -22,15 +22,12 @@
                 <td> <xsl:value-of select="./s:price"/> </td>
                 <td> <xsl:value-of select="./s:ceo"/> </td>
               </tr>
-              </xsl:if>
-    </xsl:for-each>
-    <xsl:for-each select="/s:doc/s:item/s:price">
-      <xsl:if test="./s:price&gt;70.00">
-       <tr>
+            <tr>
              <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
        </tr>
+              </xsl:if>
     </xsl:for-each>
-       </xsl:if>
+    
     <xsl:for-each select="/s:doc/s:item">    
         <tr style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
           The total of stocks that cost more than $70.00 is
