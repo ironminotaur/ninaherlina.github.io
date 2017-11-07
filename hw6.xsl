@@ -21,7 +21,6 @@
                 <td> <xsl:value-of select="./s:symbol"/> </td>
                 <td> <xsl:value-of select="./s:price"/> </td>
                 <td> <xsl:value-of select="./s:ceo"/> </td>
-                <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
               </tr>
               </xsl:if>
         </xsl:for-each>
