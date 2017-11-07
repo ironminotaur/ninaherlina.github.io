@@ -20,6 +20,7 @@
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
+                <td>  <xsl:value-of select="format-number(.,'$ ##,###')/"></td>
               </tr>
               </xsl:if>
               <div style="background:red; color:white; font-weight:bold; padding:3px;">
