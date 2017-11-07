@@ -34,13 +34,7 @@
               
         </xsl:for-each>
    </div> 
-      <div> 
-        <tr style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
-          The total of stocks that cost more than $70.00 is
-          <xsl:value-of select="count(/s:doc/s:item)"/> 
-          <xsl:value-of select="format-number(floor(.+(.div 100)"/>
-       </tr>
-     </div>
+      
     </table>
   </body>
   </html>
