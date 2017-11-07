@@ -27,12 +27,9 @@
    </div> 
    <div>
         <xsl:for-each select="/s:doc/s:item/s:price">
-          <xsl:if test="./s:price&gt;70.00">
+          <tr style="color:white; background:cyan; text-align:center">
               <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
-              </tr>
-              </xsl:if>
-         
-         
+           </tr>   
         </xsl:for-each>
    </div>
       <div style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
