@@ -24,6 +24,7 @@
               </tr>
               </xsl:if>
        </xsl:for-each>
+        </div>
     </table>
       <div style="background:red; color:white; font-weight:bold; padding:3px">
           The total of stocks that cost more than $70.00 is
