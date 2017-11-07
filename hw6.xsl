@@ -14,6 +14,14 @@
         <th>Price</th>
         <th>Ceo</th>
       </tr>
+      <div>
+        <xsl:for-each select="/s:doc/s:item/s:price">
+             
+                <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
+              
+              </xsl:if>
+        </xsl:for-each>
+   </div> 
      <div>
         <xsl:for-each select="/s:doc/s:item">
           <xsl:if test="./s:price&gt;70.00">
@@ -25,7 +33,8 @@
               </tr>
               </xsl:if>
         </xsl:for-each>
-   </div> 
+   </div>
+       
   
    
       <div> <tr style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
