@@ -19,14 +19,14 @@
        <xsl:if test="./s:price&gt;70.00">
               <tr style="color:white; background:cyan; text-align:center;">
                 <td> <xsl:value-of select="./s:symbol"/> </td>
-                <td> $ <xsl:value-of select="./s:price"/> </td>
+                <td> <xsl:value-of select="./s:price"/> </td>
                 <td> <xsl:value-of select="./s:ceo"/> </td>
               </tr>
               </xsl:if>
         </div>
-        <div>
-       
-                <xsl:value-of select="count(/s:doc/s:item)/"> Stocks is $
+        <div style="color:white; background:red; font-weight:bold; padding:3px;">
+        The total of stocks that cost more than $70.00 is
+                <xsl:value-of select="count(/s:doc/s:item)/"> $
                  <xsl:value-of select="sum(/s:doc/s:item/s:price)/">
              
        </div>      
