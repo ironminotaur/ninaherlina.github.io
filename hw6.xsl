@@ -14,7 +14,7 @@
         <th>Price</th>
         <th>Ceo</th>
       </tr>
-      <div>
+     
         <xsl:for-each select="/s:doc/s:item">
           <xsl:if test="./s:price&gt;70.00">
               <tr style="color:white; background:cyan; text-align:center">
@@ -24,7 +24,7 @@
               </tr>
               </xsl:if>
         </xsl:for-each>
-      </div>
+      
     </table>
   </body>
   </html>
