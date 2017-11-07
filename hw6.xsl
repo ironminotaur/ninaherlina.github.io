@@ -23,8 +23,13 @@
                 <td> <xsl:value-of select="./s:ceo"/> </td>
               </tr>
               </xsl:if>
-        </div>      
-             
+        </div>
+        <div>
+        <tr style="background:red; color:white; font-weight:bold; padding:3px;">
+                <xsl:value-of select="count(/s:doc/s:item)/"> Stock is $
+                 <xsl:value-of select="sum(/s:doc/s:item/s:price)/">
+              </tr>
+       </div>      
        </xsl:for-each>
     </table>
   </body>
