@@ -16,11 +16,12 @@
       </tr>
       <xsl:for-each select="/s:doc/s:item">
        <xsl:if test="s:price&gt;70.00">
+              <tr> <xsl:value-of select="format-number(.,'$ ##,###')/"></tr>
               <tr style="color:white; background:cyan; text-align:center;">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
-                <td>  <xsl:value-of select="format-number(.,'$ ##,###')/"></td>
+                
               </tr>
               </xsl:if>
               <div style="background:red; color:white; font-weight:bold; padding:3px;">
