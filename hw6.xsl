@@ -15,20 +15,17 @@
         <th>Ceo</th>
       </tr>
       <xsl:for-each select="/s:doc/s:item">
-       
-        <xsl:if test="s:price&gt;70.00">
+        <xsl:if test="./s:price&gt;70.00">
               <tr style="color:white; background:cyan; text-align:center;">
-                <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> $ <xsl:value-of select="s:price"/> </td>
-                <td> <xsl:value-of select="s:ceo"/> </td>
+                <td> <xsl:value-of select="./s:symbol"/> </td>
+                <td> $ <xsl:value-of select="./s:price"/> </td>
+                <td> <xsl:value-of select="./s:ceo"/> </td>
                 </tr>
-              </xsl:if>
-       
-              <tr style="background:red; color:white; font-weight:bold; padding:3px;">
+        </xsl:if>
+          <tr style="background:red; color:white; font-weight:bold; padding:3px;">
                 <xsl:value-of select="count(/s:doc/s:item)/"> Stock is $
                  <xsl:value-of select="sum(/s:doc/s:item/s:price)/">
-              </tr>
-               
+              </tr>     
        </xsl:for-each>
     </table>
   </body>
