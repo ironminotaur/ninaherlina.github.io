@@ -25,7 +25,7 @@
               </xsl:if>
         </xsl:for-each>
       </div>
-      <div style="background:red; color:white; font-weight:bold; padding:3px">
+      <div style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
           The total of stocks that cost more than $70.00 is
           <xsl:value-of select="count(/s:doc/s:item)"/> $
           <xsl:value-of select="sum(/s:doc/s:item/s:price)"/>
