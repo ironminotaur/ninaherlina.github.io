@@ -24,7 +24,9 @@
               </tr>
               </xsl:if>
         </xsl:for-each>
-       <xsl:for-each select="/s:doc/s:item/s:price">
+       </div>
+   <div>    
+     <xsl:for-each select="/s:doc/s:item/s:price">
              <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
         </xsl:for-each>
    </div>
