@@ -27,7 +27,9 @@
        </div>
    <div>    
      <xsl:for-each select="/s:doc/s:item/s:price">
+       <tr>
              <td> <xsl:value-of select="format-number(.,'$ ##,###')"/> </td>
+       </tr>
         </xsl:for-each>
    </div>
     <div style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
