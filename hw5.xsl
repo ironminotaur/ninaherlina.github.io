@@ -35,9 +35,9 @@
                     <xsl:otherwise>lightgrey</xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-        <tr bgcolor="{$altColor}">
+        <tr style=background:"{$altColor}">
                 <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price"/> </td>
+                <td>  $ <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
         </tr>
         </xsl:for-each>
