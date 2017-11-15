@@ -1,0 +1,89 @@
+body {
+	background: #CCFFFF;
+}
+h1 {
+	font-size: 2em;
+	text-align: center;
+	color: #330066;
+	font-style: italic;
+}
+:-webkit-any(article,aside,nav,section) h1 {
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+}
+h3 {
+	text-align: center;
+	color: #FF0000;
+	font-size: 1.5rem;
+	font-style: italic;
+}
+section {
+	width:47.5rem;
+	margin:0 auto;
+	border:0.125rem double blue;
+    background-color:#FFF;
+}
+.images {
+	background: url(https://ninaherlina.github.io/teacher.png) no-repeat right;
+	width: 100%;
+	display: block;
+}
+section > p:first-of-type {
+	text-align: center;
+	font-size: 1.25rem;
+}
+p:nth-of-type(3) {
+	text-align:center;
+	letter-spacing:5px;
+}
+.yellow {
+	background: yellow;
+	font-weight: bold;
+}
+img {
+	margin-right:1.25rem;
+	width: 9.375rem;
+	height: 8.75rem;
+	text-align: left;
+}
+table {
+	width: 18.75rem;
+	margin-left: 10.63rem;
+    margin-right: auto;
+    margin-top: -9rem;
+}
+table {
+	border: 0.125rem solid black;
+	border-collapse: separate;
+}
+td, th {
+	border: 0.0625rem solid grey;
+}
+th {
+	color:#CC0000;
+	background: white;
+}
+tr:nth-child(even) {
+    background: #999999;
+}
+.first-letter p::first-letter {
+	color: #FF0000;
+	font-size: 3.125rem;
+    font-weight: bold;
+    font-style: italic;
+}
+ul.no_bullet {
+	list-style-type: none;
+	margin-left:
+}
+li.trillium {
+	background: url('https://ninaherlina.github.io/trillium.gif') no-repeat left top;
+	padding-left: 2rem;
+}
+footer {
+	background: linear-gradient(to left, transparent, #eed5d2),
+	url(https://ninaherlina.github.io/minions.png) no-repeat right bottom;
+}
+
+
+
