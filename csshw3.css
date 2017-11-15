@@ -3,7 +3,7 @@ body {
 }
 h1 {
 	font-size: 2em;
-	margin-top: 1.313rem;
+	margin-top: -.687rem;
 	text-align: center;
 	color: #330066;
 	font-style: italic;
@@ -46,8 +46,8 @@ img {
 table {
 	width: 18.75rem;
 	margin-left: 10.63rem;
-    margin-right: auto;
-    margin-top: -9rem;
+        margin-right: auto;
+        margin-top: -9rem;
 }
 table {
 	border: 0.125rem solid black;
