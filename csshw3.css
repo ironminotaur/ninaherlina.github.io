@@ -23,12 +23,12 @@ section {
 	border:0.125rem double blue;
     background-color:#FFF;
 }
-.images {
+article {
 	background: url(https://ninaherlina.github.io/teacher.png) no-repeat right;
 	width: 100%;
 	display: block;
 }
-section > p:first-of-type {
+article > p:first-of-type {
 	text-align: center;
 	font-size: 1.25rem;
 }
@@ -66,7 +66,13 @@ th {
 tr:nth-child(even) {
     background: #999999;
 }
-.first-letter p::first-letter {
+p:nth-of-type(4)::first-letter {
+	color: #FF0000;
+	font-size: 3.125rem;
+    font-weight: bold;
+    font-style: italic;
+}
+p:nth-of-type(5)::first-letter {
 	color: #FF0000;
 	font-size: 3.125rem;
     font-weight: bold;
@@ -84,6 +90,5 @@ footer {
 	background: linear-gradient(to left, transparent, #eed5d2),
 	url(https://ninaherlina.github.io/minions.png) no-repeat right bottom;
 }
-
 
 
