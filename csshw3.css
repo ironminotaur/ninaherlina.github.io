@@ -76,10 +76,10 @@ p:nth-of-type(5)::first-letter {
     font-weight: bold;
     font-style: italic;
 }
-ul.no_bullet {
+ul {
 	list-style-type: none;
 }
-li.trillium {
+li {
 	background: url('https://ninaherlina.github.io/trillium.gif') no-repeat left top;
 	padding-left: 2rem;
 }
