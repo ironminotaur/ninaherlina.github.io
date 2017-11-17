@@ -6,6 +6,9 @@
   <html>
     <head>
       <title>HW6 XSL Output</title>
+      <style>
+            tr:nth-child(even) { background-color:#lightgrey; }
+      </style>
     </head>
   <body>
     <table style="width:450px">
