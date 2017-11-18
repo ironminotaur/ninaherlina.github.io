@@ -34,7 +34,7 @@ p:nth-of-type(3) {
 	text-align:center;
 	letter-spacing:0.3125rem;
 }
-mark {
+p mark {
 	background-color: yellow;
         font-weight: bold;
 }
