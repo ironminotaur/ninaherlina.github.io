@@ -35,7 +35,8 @@ p:nth-of-type(3) {
 	letter-spacing:0.3125rem;
 }
 mark {
-	font-weight: bold;
+	background-color: yellow;
+        font-weight: bold;
 }
 img {
 	margin-right:1.25rem;
