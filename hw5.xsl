@@ -6,6 +6,11 @@
   <html>
     <head>
       <title>HW5 XSL Output</title>
+       <style>
+        tr:nth-child(even) {
+          background: #D3D3D3;
+        }
+      </style>
     </head>
   <body>
     <table style="width:450px">
@@ -15,20 +20,16 @@
         <th>Ceo</th>
       </tr>
       <xsl:for-each select="s:item">
-        <xsl:choose>
-       <xsl:when test="s:price&gt;70.00">
+       <xsl:if test="s:price&gt;70.00">
               <tr style="color:white; background:cyan; text-align:center;">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
               </tr>
-              </xsl:when>
-        </xsl:for-each>
-          </xsl:choose>
+              </xsl:if>
        </xsl:for-each>
     </table>
   </body>
   </html>
 </xsl:template>
 </xsl:stylesheet>
-
