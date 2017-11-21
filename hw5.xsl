@@ -28,18 +28,6 @@
                 <td> <xsl:value-of select="s:ceo"/> </td>
               </tr>
               </xsl:when>
-          <xsl:for-each select="s:item">
-            <xsl:variable name="altColor">
-                <xsl:choose>
-                    <xsl:when test="position() mod 2 = 0">cyan</xsl:when>
-                    <xsl:otherwise>lightgrey</xsl:otherwise>
-                </xsl:choose>
-            </xsl:variable>
-        <tr style=background:"{$altColor}">
-                <td> <xsl:value-of select="s:symbol"/> </td>
-                <td>  $ <xsl:value-of select="s:price"/> </td>
-                <td> <xsl:value-of select="s:ceo"/> </td>
-        </tr>
         </xsl:for-each>
           </xsl:choose>
        </xsl:for-each>
