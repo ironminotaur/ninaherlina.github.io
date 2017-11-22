@@ -28,9 +28,9 @@
         </xsl:choose>
         </xsl:variable>
         <tr class="{$alternate-colors}">
-            <td><xsl:value-of select="stock:symbol" /></td>
-            <td><xsl:value-of select="stock:price" /></td>
-            <td><xsl:value-of select="stock:ceo" /></td>
+            <td><xsl:value-of select="s:symbol" /></td>
+            <td><xsl:value-of select="s:price" /></td>
+            <td><xsl:value-of select="s:ceo" /></td>
         </tr> 
         </xsl:if>
         </xsl:for-each>
