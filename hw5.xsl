@@ -6,6 +6,10 @@
   <html>
     <head>
       <title>HW5 XSL Output</title>
+        <style>
+            .cyan {background: cyan}
+            .lightgray {background: lightgray}
+        </style>
     </head>
   <body>
     <table style="width:450px">
