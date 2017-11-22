@@ -21,7 +21,7 @@
       </tr>
       <xsl:for-each select="s:item">
        <xsl:if test="s:price&gt;70.00">
-              <tr style="color:white; background:cyan; text-align:center;">
+              <tr style="color:white; text-align:center;">
                 <td> <xsl:value-of select="s:symbol"/> </td>
                 <td> <xsl:value-of select="s:price"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
