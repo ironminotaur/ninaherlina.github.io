@@ -20,16 +20,20 @@
         <th>Ceo</th>
       </tr>
       <xsl:for-each select="s:item">
-      <xsl:if test="s:price&gt;70.00">
-              <tr style="color:white; background:cyan; text-align:center;">
-                <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price"/> </td>
-                <td> <xsl:value-of select="s:ceo"/> </td>
-              </tr>
-              </xsl:if>
-        
-  
-       </xsl:for-each>
+        <xsl:if test="s:price&gt;70">
+        <xsl:variable name="alternate-colors">
+        <xsl:choose>
+             <xsl:when test="position() mod 2 = 0">cyan</xsl:when>
+             <xsl:otherwise>lightgray</xsl:otherwise>
+        </xsl:choose>
+        </xsl:variable>
+        <tr class="{$alternate-colors}">
+            <td><xsl:value-of select="stock:symbol" /></td>
+            <td><xsl:value-of select="stock:price" /></td>
+            <td><xsl:value-of select="stock:ceo" /></td>
+        </tr> 
+        </xsl:if>
+        </xsl:for-each>
     </table>
   </body>
   </html>
