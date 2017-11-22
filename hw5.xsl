@@ -28,7 +28,7 @@
               </tr>
               </xsl:if>
         
-  </xsl:if>
+  
        </xsl:for-each>
     </table>
   </body>
