@@ -24,14 +24,14 @@
         <xsl:if test="position()  mod 2 = 0">
             <tr style="color:white; text-align:center; background:#D3D3D3">
                 <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price>70.00"/> </td>
+                <td> <xsl:value-of select="s:price&gt;70.00"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
              </tr>
               </xsl:if>
         <xsl:if test="position()  mod 2 = 1">
             <tr style="color:white; text-align:center; background:cyan">
                 <td> <xsl:value-of select="s:symbol"/> </td>
-                <td> <xsl:value-of select="s:price>70.00"/> </td>
+                <td> <xsl:value-of select="s:price&gt;70.00"/> </td>
                 <td> <xsl:value-of select="s:ceo"/> </td>
             </tr>
   </xsl:if>
