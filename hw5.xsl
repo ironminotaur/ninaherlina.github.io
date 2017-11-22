@@ -26,7 +26,7 @@
              <xsl:otherwise>lightgray</xsl:otherwise>
         </xsl:choose>
         </xsl:variable>
-        <tr class="{$alternate-colors}">
+        <tr class="{$alternate-colors}" style="text-align:center;">
             <td><xsl:value-of select="s:symbol" /></td>
             <td><xsl:value-of select="s:price" /></td>
             <td><xsl:value-of select="s:ceo" /></td>
