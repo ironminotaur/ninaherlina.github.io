@@ -6,11 +6,6 @@
   <html>
     <head>
       <title>HW5 XSL Output</title>
-       <style>
-        tr:nth-child(even) {
-          background: #D3D3D3;
-        }
-      </style>
     </head>
   <body>
     <table style="width:450px">
