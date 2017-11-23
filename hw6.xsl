@@ -19,7 +19,7 @@
         <th>Ceo</th>
       </tr>
     <div>  
-     <xsl:for-each select="s:item">
+     <xsl:for-each select="/s:doc/s:item">
         <xsl:if test="s:price&gt;70">
         <xsl:variable name="alternate-colors">
         <xsl:choose>
