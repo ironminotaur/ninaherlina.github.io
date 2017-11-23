@@ -7,7 +7,8 @@
     <head>
       <title>HW6 XSL Output</title>
       <style>
-            tr:nth-child(even) { background-color:#lightgrey; }
+            .cyan {background: cyan}
+            .lightgray {background: lightgray}
       </style>
     </head>
   <body>
@@ -18,8 +19,8 @@
         <th>Ceo</th>
       </tr>
     <div>  
-     <xsl:for-each select="/s:doc/s:item">
-          <xsl:if test="s:price&gt;70">
+     <xsl:for-each select="s:item">
+        <xsl:if test="s:price&gt;70">
         <xsl:variable name="alternate-colors">
         <xsl:choose>
              <xsl:when test="position() mod 2 = 0">cyan</xsl:when>
@@ -32,7 +33,7 @@
             <td><xsl:value-of select="s:ceo" /></td>
         </tr>
         </xsl:if>
-    </xsl:for-each>
+        </xsl:for-each>
       </div>
         <div style="background:red; color:white; font-weight:bold; padding:3px; width:450px">
           The total of stocks that cost more than $70.00 is
