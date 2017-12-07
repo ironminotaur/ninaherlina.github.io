@@ -177,7 +177,7 @@ section {
 	display: none;}
     .wrapper {
 	  display: flex;
-	  flex-flow: row;
+	  flex-flow: column;
     }
 
 
