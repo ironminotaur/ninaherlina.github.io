@@ -168,18 +168,45 @@ section {
 	margin-left: 10em;
 	margin-top: -7em;
 }
-@media only screen and (max-width: 500px)
- {
-	 h1 {
+@media screen and (min-width: 600px){
+  .wrapper {
+   -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  wrapper > * {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+header {
+    -webkit-order: -1;
+   order: -1;
+  }
+nav {
+    -webkit-order: -2;
+   order: -2;
+  }
+  section {
+    -webkit-order: -3;
+   order: -3;
+  }
+  footer {
+    -webkit-order: -4;
+   order: -4; 
+  }
+	h1 {
 	 background-image: none;
 	 }
 	img {
 	display: none;
 	}
-	 .wrapper {
-	 width: 50%;
-	 display: block;	 
-	 }
 }
+
+@media screen and (max-width: 600px){
+  .wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
 
 
