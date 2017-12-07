@@ -39,7 +39,6 @@ nav {
 }
 nav li {
 	font-weight: bold;
-	shape-margin: 0;
 	padding-left: 0;
 }
 footer p::after {
