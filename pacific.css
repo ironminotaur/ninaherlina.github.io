@@ -176,16 +176,8 @@ section {
 	img {
 	display: none;
 	}
-	header {
-	width: auto;
-	}
-	section {
-	width: auto;
-	}
-	footer {
-	width: auto;
-	}
-	
+	 .wrapper {
+	 width: 100%}
 }
 
 
