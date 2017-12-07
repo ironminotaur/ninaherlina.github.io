@@ -168,18 +168,39 @@ section {
 	margin-left: 10em;
 	margin-top: -7em;
 }
-@media only screen and (device-height: 480px) and (orientation: portrait)
-{
-    h1
-    {
+@media only screen and (max-width: 320px) {
+	nav,
+	nav ul {
+		height: auto;
+	}
+	nav li, #navigation a {
+		float: none;
+		display: block;
+		margin: 0;
+		height: auto;
+	}
+	
+	nav a {
+		width: auto;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1em;
+	}
+	h1 {
     	background-image: none;
     }
-    .wrapper {
-	  display: flex;
-	  flex-flow: row;
-    }
-
-
+	img {
+	display: none;
+	}
+	header {
+	width: auto;
+	}
+	section {
+	width: auto;
+	}
+	footer {
+	width: auto;
+	}
+	
 }
 
 
