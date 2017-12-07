@@ -170,10 +170,11 @@ section {
 }
 @media only screen and (device-height: 480px) and (orientation: portrait)
 {
-    h1
-    {
+    h1 {
     	background-image: none;
     }
+	img {
+	display: none;}
     .wrapper {
 	  display: flex;
 	  flex-flow: row;
