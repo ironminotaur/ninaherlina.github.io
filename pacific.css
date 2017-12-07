@@ -168,3 +168,17 @@ section {
 	margin-left: 10em;
 	margin-top: -7em;
 }
+@media only screen and (device-height: 480px) and (orientation: portrait)
+{
+    h1
+    {
+    	background-image: none;
+    }
+    .wrapper {
+	  display: flex;
+	  flex-flow: row;
+    }
+
+
+
+}
