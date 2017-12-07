@@ -168,24 +168,8 @@ section {
 	margin-left: 10em;
 	margin-top: -7em;
 }
-@media only screen and (max-width: 500px)
+@media screen and (max-width: 480px)
  {
-	 .wrapper {
-  display: flex;
-  flex-flow: row;
-}
-.wrapper > * {
-  flex: 1 100%;
-}
-nav {
-	align-items: flex-start;
-	margin-top: -1em;
-}
-section {
-	align-items: flex-start;
-	margin-left: 10em;
-	margin-top: -7em;
-}
 	 h1 {
 	 background-image: none;
 	 }
