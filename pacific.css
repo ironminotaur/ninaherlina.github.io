@@ -168,7 +168,7 @@ section {
 	margin-left: 10em;
 	margin-top: -7em;
 }
-@media only screen and (device-height: 480px) and (orientation: portrait)
+@media only screen and (max-width: 500px)
 {
     h1 {
     	background-image: none;
