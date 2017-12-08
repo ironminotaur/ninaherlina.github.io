@@ -9,6 +9,7 @@ p {
 }
 a:link {
 	color: #000033;
+	padding: 10px;
 }
 a:visited {
 	color: #344873;
@@ -35,7 +36,8 @@ h1 {
 }
 nav {
 	background: #90C7E3;
-	width: 10em;
+	width: 100%;
+	position: relative;
 }
 nav li {
 	font-weight: bold;
@@ -87,7 +89,7 @@ dt {
 	font-weight: bold;
 }
 nav li {
-    display: block;
+    display: inline;
     font-size: 1.5em;
 }
 nav ul {
@@ -95,7 +97,7 @@ nav ul {
 	float: left;
 	margin: 0;
 	padding-left: 0;
-	width: 8.33%;
+	width: 100%;
 }
 nav li a {
 	text-decoration: none;
@@ -158,10 +160,13 @@ input[type=submit]:hover {
 }
 .wrapper > * {
   flex: 1 100%;
+  padding: 10px;
+  margin: 0;
 }
 nav {
 	align-items: flex-start;
 	margin-top: -1em;
+	padding: 10px;
 }
 section {
 	align-items: flex-start;
